@@ -18,7 +18,7 @@ const data = {
       category: "dufflebag",
       image: "/images/dufflebag.jpg",
       price: 250,
-      countInStock: 20,
+      countInStock: 0,
       brand: "Roshan",
       rating: 4.0,
       numReviews: 10,
