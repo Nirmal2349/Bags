@@ -4,7 +4,7 @@ const data = {
       name: "Hand bag",
       slug: "handbag",
       category: "handbag",
-      image: "/images/handbag.jpg", // 679px × 829px
+      image: "/images/handbag3.jpg", // 679px × 829px
       price: 120,
       countInStock: 10,
       brand: "Lavie",

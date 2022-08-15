@@ -44,6 +44,14 @@
 main{
   flex: 1;
 }
+.btn-primary {
+  background-color: #f1f90f;
+  color: #000000;
+}
+.rating span {
+  color: #ffc000;
+}
+
 
 .products{
   display: flex;
