@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: "Hand bag",
+      slug: "handbag",
+      category: "Shirts",
+      image: "/images/handbag.jpg", // 679px × 829px
+      price: 120,
+      countInStock: 10,
+      brand: "Lavie",
+      rating: 4.5,
+      numReviews: 10,
+      description: "high quality shirt",
+    },
+    {
+      name: "Duffle bag",
+      slug: "Duffle bag",
+      category: "Shirts",
+      image: "/images/dufflebag.jpg",
+      price: 250,
+      countInStock: 20,
+      brand: "Roshan",
+      rating: 4.0,
+      numReviews: 10,
+      description: "high quality product",
+    },
+    {
+      name: "Back bag",
+      slug: "Back bag",
+      category: "Pants",
+      image: "/images/backbag.jpg",
+      price: 25,
+      countInStock: 15,
+      brand: "Skybags",
+      rating: 4.5,
+      numReviews: 14,
+      description: "high quality product",
+    },
+    {
+      name: "Trekking bag",
+      slug: "Trekking bag",
+      category: "Pants",
+      image: "/images/trekkingbag.jpg",
+      price: 65,
+      countInStock: 5,
+      brand: "Wildcraft",
+      rating: 4.5,
+      numReviews: 10,
+      description: "high quality product",
+    },
+  ],
+};
+export default data;
