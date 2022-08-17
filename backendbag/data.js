@@ -46,7 +46,7 @@ const data = {
       category: "trekkingbag",
       image: "/images/trekkingbag.jpg",
       price: 65,
-      countInStock: 5,
+      countInStock: 50,
       brand: "Wildcraft",
       rating: 4.5,
       numReviews: 10,
