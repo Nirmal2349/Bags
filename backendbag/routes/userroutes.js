@@ -7,7 +7,7 @@ import { generateToken } from "../utils.js";
 const userRouter = express.Router();
 
 userRouter.post(
-  "/login",
+  "/signin",
   expressAsyncHandler(async (req, res) => {
     const user = await User.findOne({ email: req.body.email });
     if (user) {
