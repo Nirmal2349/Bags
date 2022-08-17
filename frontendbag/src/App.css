@@ -72,3 +72,7 @@ main{
 .product_info{
  padding: 1rem;
 }
+
+.img-large {
+  max-width: 100%;
+}
