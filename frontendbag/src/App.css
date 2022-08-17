@@ -41,7 +41,7 @@
   min-height: 100vh;
 }
 
-main{
+main {
   flex: 1;
 }
 .btn-primary {
@@ -52,8 +52,7 @@ main{
   color: #ffc000;
 }
 
-
-.products{
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,16 +62,20 @@ main{
   border: 1px solid black;
   margin: 1rem;
 }
-.product img{
+.product img {
   height: 400px;
   width: 100%;
   max-width: 400px;
 }
 
-.product_info{
- padding: 1rem;
+.product_info {
+  padding: 1rem;
 }
 
 .img-large {
-  max-width: 100%;
+  max-width: 60%;
+}
+
+.price_style {
+  margin-top: 7px;
 }
