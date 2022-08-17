@@ -44,7 +44,7 @@ export default function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>Amazona</title>
+        <title>Bags👜</title>
       </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
@@ -65,4 +65,3 @@ export default function HomeScreen() {
     </div>
   );
 }
-

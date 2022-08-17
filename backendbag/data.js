@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: "1",
+      // _id: "1",
       name: "Hand bag",
       slug: "handbag",
       category: "handbag",
@@ -14,7 +14,7 @@ const data = {
       description: "high quality handbag",
     },
     {
-      _id: "2",
+      // _id: "2",
       name: "Duffle bag",
       slug: "Duffle bag",
       category: "dufflebag",
@@ -27,7 +27,7 @@ const data = {
       description: "high quality dufflebag",
     },
     {
-      _id: "3",
+      // _id: "3",
       name: "Back bag",
       slug: "Back bag",
       category: "backbag",
@@ -40,7 +40,7 @@ const data = {
       description: "high quality backbag",
     },
     {
-      _id: "4",
+      // _id: "4",
       name: "Trekking bag",
       slug: "Trekking bag",
       category: "trekkingbag",
