@@ -83,3 +83,8 @@ main {
 .img-thumbnail {
   height: 150px;
 }
+
+.small-container {
+  max-width: 600px;
+}
+
