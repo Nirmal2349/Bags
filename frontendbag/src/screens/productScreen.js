@@ -12,6 +12,7 @@ import { Helmet } from "react-helmet-async";
 import LoadingBox from "../components/loadingbox";
 import MessageBox from "../components/messagebox";
 import { getError } from "../utils";
+import { useNavigate } from "react-router-dom";
 import { Store } from "../store";
 
 const reducer = (state, action) => {
@@ -28,6 +29,7 @@ const reducer = (state, action) => {
 };
 export default function ProductScreen() {
   const params = useParams();
+  const navigate = useNavigate();
   const { slug } = params;
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
     product: [],
@@ -61,6 +63,7 @@ export default function ProductScreen() {
       type: "CART_ADD_ITEM",
       payload: { ...product, quantity },
     });
+    navigate("/cart");
   };
   return loading ? (
     <LoadingBox />

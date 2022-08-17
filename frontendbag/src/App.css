@@ -79,3 +79,7 @@ main {
 .price_style {
   margin-top: 7px;
 }
+
+.img-thumbnail {
+  height: 150px;
+}
