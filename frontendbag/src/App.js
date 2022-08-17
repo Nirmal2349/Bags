@@ -43,7 +43,7 @@ function App() {
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
-              <Route path="/login" element={<LoginScreen />} />
+              <Route path="/signin" element={<LoginScreen />} />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>
