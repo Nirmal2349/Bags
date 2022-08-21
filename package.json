@@ -1,0 +1,21 @@
+{
+  "name": "bags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backendbag && npm install  && cd ../frontendbag && npm install && npm run build",
+    "start": "node backendbag/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nirmal2349/mern-bags"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirmal2349/mern-bags/issues"
+  },
+  "homepage": "https://github.com/Nirmal2349/mern-bags#readme"
+}
