@@ -44,7 +44,8 @@
 main {
   flex: 1;
 }
-.btn-primary {
+.btn-primary,
+.btn-outline-primary {
   background-color: #33a7efc2;
   color: #000000;
 }
@@ -97,6 +98,36 @@ main {
   color: #f08000;
 }
 
-.p_data{
+.p_data {
   text-decoration: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
+}
+
+.nav-link {
+  color: rgb(93, 214, 244);
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
 }
