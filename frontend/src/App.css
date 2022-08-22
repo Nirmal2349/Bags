@@ -131,3 +131,11 @@ main {
 .nav-link:hover {
   color: rgb(255, 255, 255);
 }
+
+.text-bold {
+  font-weight: bold;
+}
+
+a{
+text-decoration: none;
+}
